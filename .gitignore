@@ -28,3 +28,10 @@ docker-compose.override.yml
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+script/borough_postcodes.py
+script/data/income_by_borough.csv
+script/data/lisings_new.csv
+script/data/postcodes_lookup.csv
+script/data/time_dim.csv
+notebooks/requirements.txt
+notebooks/requirements.txt
