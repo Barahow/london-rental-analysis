@@ -27,7 +27,7 @@ headers = {
 page_size = 24
 max_pages_per_postcode = 42  # Assuming max pages per postcode
 pages_per_postcode_to_sample = 25  # Number of random pages to scrape per postcode
-SLEEP_TIME = 1    # Seconds to sleep between requests (avoid IP ban)
+SLEEP_TIME = 3    # Seconds to sleep between requests (avoid IP ban)
 # Extract only required fields
 
 
@@ -66,7 +66,7 @@ for borough_name, postcode_list in boroughs.items():
             pages_to_scrape.sort()  
             for page_num in pages_to_scrape:
                 index = page_num * page_size
-                url = f"https://www.rightmove.co.uk/api/property-search/listing/search?searchLocation=London&useLocationIdentifier=true&locationIdentifier=REGION%5E87490&radius=0.0&_includeLetAgreed=on&index={index}&sortType=6&channel=RENT&transactionType=LETTING"
+                url = f"Insert your URL HERE. check for the pages Get Request"
                 print(f"Scraping: {borough_name} - Postcode: {postcode} - Page: {page_num}")
                 response = requests.get(url, headers=headers)
                 if response.status_code == 200:
@@ -87,8 +87,8 @@ for borough_name, postcode_list in boroughs.items():
                         print(f"Failed to parse json for {postcode} page {page_num}: {e}")
                 else:
                     print(f"Failed to fetch {postcode} page {page_num}: HTTP {response.status_code}")
-            
-            #time.sleep(SLEEP_TIME)
+            ## You need this. Or you might get ip banned or worse. 
+            time.sleep(SLEEP_TIME)
 
 
 
