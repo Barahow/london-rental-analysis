@@ -1,12 +1,9 @@
 # Compiled class file
 *.class
 
-# Ignore all CSVs in data folder except final output
-# data/*.csv
-!data/inner_london_postcodes.csv
-# Ignore raw input files
-data/postcode_lookup_inner_london.csv
-data/ward_name_lookup.csv
+
+# Ignore all CSV files in data folder
+data/*.csv
 
 # Log file
 *.log
