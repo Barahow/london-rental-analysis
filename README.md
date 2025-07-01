@@ -1,4 +1,5 @@
-London Rental Market Analysis (Jan 2025 – Jun 2025)
+# London Rental Market Analysis (Jan 2025 – Jun 2025)
+
 Built a comprehensive analytics pipeline from web-scraping to interactive dashboards to uncover pricing dynamics and affordability challenges in Inner London’s private rental market.
 
 ## Project Overview
