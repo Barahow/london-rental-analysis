@@ -39,6 +39,21 @@ Built a comprehensive analytics pipeline from web-scraping to interactive dashbo
 * Optimal Listing Timing: New listings surge mid‑week (especially Wednesday), offering a strategic posting window.
 
 
+## Dashboard Screenshots
+
+![Overview](dashboards/screenshots/01_overview.png)  
+*Overview with toggle controls*
+
+![Affordability](dashboards/screenshots/0.2_affordabilitymap.png)  
+*Affordability buckets by borough*
+
+![Time Trends](dashboards/screenshots/03_timetrends.png)  
+*30‑day rolling average rent*
+
+![Outliers](dashboards/screenshots/04_outliers.png)  
+*Top 5% outliers by property type*
+
+
 
 
 
